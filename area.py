@@ -3,6 +3,6 @@ r=int(input("enter radius"))
 A=3.14*r*r
 print("The area of circle with radius",r,"is ",A)
 #file extention
-file=int(input("file name:"))
+file=input("file name:")
 Extention=file.split(".")
-Print(extention of file:",str(extention[-1]))
+Print("extention of file:",str(extention[-1]))
